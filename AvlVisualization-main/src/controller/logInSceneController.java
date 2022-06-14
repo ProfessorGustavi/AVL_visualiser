@@ -91,7 +91,7 @@ public class logInSceneController {
     }
 
     public void openGit(ActionEvent actionEvent) throws URISyntaxException, IOException {
-        Desktop.getDesktop().browse(new URI("https://github.com/JonMukaj/AvlVisualization"));
+        Desktop.getDesktop().browse(new URI("https://github.com/ProfessorGustavi/AVL_Visualiser"));
     }
 
     @FXML
@@ -106,9 +106,9 @@ public class logInSceneController {
         else if (source.getId().matches("kevin"))
             Desktop.getDesktop().browse(new URI("https://www.linkedin.com/in/kevin-tenolli-59357415a/"));
         else if (source.getId().matches("enest"))
-            Desktop.getDesktop().browse(new URI("https://github.com/JonMukaj/AvlVisualization")); //dummy
+            Desktop.getDesktop().browse(new URI("https://github.com/ProfessorGustavi/AVL_Visualiser")); //dummy
         else if (source.getId().matches("kristi"))
-            Desktop.getDesktop().browse(new URI("https://github.com/JonMukaj/AvlVisualization")); //dummy
+            Desktop.getDesktop().browse(new URI("https://github.com/ProfessorGustavi/AVL_Visualiser")); //dummy
     }
 
     @FXML
